@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 // URL твоего Google Apps Script Web App (с /exec)
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw5vKaGI6tDQwbMrcQthDICZtifXoYXvrRcSd2SJyPHUD2bOhki72gtwdcO-xpKV6pE/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbySQjofitzQ0-cjsSY3tUTHyAfLIYMbEmqCXcloCmS6-vlMBOXONouiitsgVrYP9bZ-/exec";
 
 // Логируем старт
 console.log("🚀 Telegram Proxy Server запущен...");
